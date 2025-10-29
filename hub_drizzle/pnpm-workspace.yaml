@@ -1,0 +1,16 @@
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - '@tailwindcss/oxide'
+  - core-js
+  - esbuild
+  - keccak
+  - scrypt
+  - secp256k1
+  - sha3
+  - unrs-resolver
+  - vue-demi
+  - websocket
+
+onlyBuiltDependencies:
+  - sharp
+  - workerd

@@ -1,0 +1,45 @@
+{
+  "name": "hub_drizzle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.71",
+    "@iconify-json/simple-icons": "^1.2.55",
+    "@nuxt/ui": "^4.1.0",
+    "@nuxthub/core": "0.9.0",
+    "@pinia/nuxt": "0.11.2",
+    "@vueuse/nuxt": "14.0.0",
+    "drizzle": "^1.4.0",
+    "drizzle-zod": "^0.8.3",
+    "es-toolkit": "^1.41.0",
+    "h3-zod": "^0.5.3",
+    "motion-v": "^1.7.4",
+    "nanoid": "^5.1.6",
+    "nuxt": "^4.2.0",
+    "nuxt-auth-utils": "0.5.25",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "4.5.0",
+    "vue": "^3.5.22",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.9.0",
+    "drizzle-kit": "^0.31.6",
+    "eslint": "^9.38.0",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.2",
+    "wrangler": "^4.45.1"
+  },
+  "resolutions": {
+    "unimport": "4.1.1"
+  },
+  "packageManager": "pnpm@10.19.0"
+}
