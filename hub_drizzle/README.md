@@ -1,19 +1,18 @@
 # Quick Start
 
-````bash
+```bash
+npm create nuxt@latest -- -t github:cybandy/nuxt_templates/hub_drizzle
+
+```
 
 # LLM txt
-# LLM txt
+
 ```bash
 #fetch https://nuxt.com/llms-full.txt
 #fetch https://ui.nuxt.com/llms-full.txt
 #fetch https://raw.githubusercontent.com/cybandy/llms_txt_files/refs/heads/main/nuxt_hub.txt
 #fetch https://orm.drizzle.team/llms-full.txt
-````
-
-npm create nuxt@latest -- -t github:cybandy/nuxt_templates/hub_drizzle
-
-````
+```
 
 # Nuxt Starter Template
 
@@ -38,7 +37,7 @@ Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
 
 ```bash [Terminal]
 npm create nuxt@latest -- -t github:nuxt-ui-templates/starter
-````
+```
 
 ## Deploy your own
 
