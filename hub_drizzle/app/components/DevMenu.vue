@@ -8,16 +8,16 @@ const items = ref([
     },
     {
       label: 'login',
-      to: isDev ? '/login' : undefined
+      to: isDev ? '/auth/login' : undefined
     },
     {
       label: 'signup',
-      to: isDev ? '/signup' : undefined
+      to: isDev ? '/auth/signup' : undefined
     },
     {
       label: 'logout',
       onSelect: async () => {
-        // await useMyUserSession().clear()
+        await useMyUserSession().clear()
         navigateTo('/')
       }
     },

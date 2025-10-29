@@ -8,6 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "db:generate": "drizzle-kit generate",
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {

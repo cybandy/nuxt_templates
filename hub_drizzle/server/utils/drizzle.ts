@@ -32,3 +32,4 @@ export function lower(txt: AnySQLiteColumn): SQL {
 
 // export type Member = typeof schema.users.$inferSelect;
 export type UserInsert = typeof schema.users.$inferInsert;
+export type UserSelect = typeof schema.users.$inferSelect;

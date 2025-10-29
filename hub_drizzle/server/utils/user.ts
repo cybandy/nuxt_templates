@@ -1,5 +1,10 @@
 import type { SQL } from 'drizzle-orm';
-import type { UserInsert } from './drizzle';
+import type { UserInsert, UserSelect } from './drizzle';
+
+export function getSafeUser(data: UserSelect) {
+  const { password, githubId, githubToken, googleId, googleToken, ...safeUser } = data
+  return safeUser
+}
 
 export async function findUserById(id: string) {
   return useDrizzle()
