@@ -31,8 +31,9 @@ useSeoMeta({
     <NuxtRouteAnnouncer />
     <NuxtLayout>
       <NuxtPage />
+      <BackToTop />
       <DevOnly>
-        <div class="fixed bottom-6 right-6">
+        <div class="fixed bottom-20 right-6">
           <DevMenu />
         </div>
       </DevOnly>
